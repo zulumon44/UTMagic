@@ -27,9 +27,9 @@ class App:
         self.deck = None
 
     def load_images(self):
-        all_names = [f for f in listdir("../images") if isfile(join("../images", f))]
+        all_names = [f for f in listdir(".\images") if isfile(join(".\images", f))]
         for name in all_names:
-            self.images[name] = pygame.image.load(join("../images", name))
+            self.images[name] = pygame.image.load(join(".\images", name))
 
     def init_game(self):
         Side((565, 50), ["rotlung_reanimator",
