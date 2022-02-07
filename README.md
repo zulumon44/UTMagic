@@ -1,25 +1,24 @@
 # Implémenter strlen(3) sur `Magic: The Gathering'
 
-La machine de Turing est basée sur le papier suivant :
+The Turing machine is based on the following paper:
 https://arxiv.org/pdf/1904.09828.pdf
 
-## Rapport
+## Report
 
 https://fr.overleaf.com/read/cdcxfgfnrzqr
 
-## Tester ?
+## Test
 
 ```
 pip3 install -r requirements.txt
 python3 src/app.py <file.utm> <input>
 ```
 
-UI réalisée sur pygame 1.9.6, utiliser la flèche droite pour avancer dans le
-programme. Cliquer sur une carte du plateau permet de la visualiser. Appuyer sur
-la barre espace permet de lancer la complétion de l'algorithme en mode
-automatique. A la fin du processus, revenir à l'extrémité gauche du ruban est
-possible en utilisant la flèche gauche.
+UI made on pygame 1.9.6, use the right arrow to move forward in the
+program. Clicking on a card on the board allows you to view it. Push the
+space bar to automatically complete the program. At the end of the process, 
+use the left arrow to return to the end of the ribbon.
 
-## Et sinon ?
+## Other
 
-Importer un .utm sur le site https://turingmachinesimulator.com
+Import a .utm from https://turingmachinesimulator.com
