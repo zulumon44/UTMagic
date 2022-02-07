@@ -1,4 +1,4 @@
-# Implémenter strlen(3) sur `Magic: The Gathering'
+# Implementing strlen(3) in `Magic: The Gathering'
 
 The Turing machine is based on the following paper:
 https://arxiv.org/pdf/1904.09828.pdf
